@@ -1,0 +1,748 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1185px;
+    margin: auto;
+    padding: 20px;
+}
+
+ul,li {
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+p{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.navbar{
+    display: flex;
+    gap:46px;
+    align-items: center;
+text-align: center;
+}
+
+
+.navigationBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+input{
+    border: none;
+    
+}
+
+.navLink{
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+}
+
+.navbar a{
+
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+
+
+}
+
+select{
+    border: none;
+    background-color: aliceblue;
+}
+
+.websiteLogo img{
+    width: 193.02pxpx;
+height: 42px;
+}
+
+.btn{
+padding: 14px 24px 14px 24px;
+gap: 10px;
+opacity: 0px;
+}
+
+.loginButton{
+    width: 91px;
+height: 52px;
+padding: 14px 24px 14px 24px;
+gap: 10px;
+border-radius: 5px;
+border: 1.5px solid black;
+}
+.signUpButton{
+    width: 91px;
+height: 52px;
+padding: 14px 24px 14px 24px;
+gap: 10px;
+border-radius: 5px;
+border: 1.5px solid black; 
+color: aliceblue;
+background-color:black ;
+}
+
+.homePageSectuionparagraph{
+
+font-size: 15px;
+font-weight: 600;
+line-height: 23.17px;
+letter-spacing: 0.1em;
+color: rgba(255, 255, 255, 1);
+margin-bottom: 8px;
+
+}
+.homepageSectionHeadingPara{
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    gap:9px;
+    align-items: center;
+}
+.homePageSection{
+    height: calc(100vh - 120px);
+    background: linear-gradient(89.61deg, #422A3C 55.75%, rgba(66, 42, 60, 0.85) 66.03%, rgba(66, 42, 60, 0.8) 99.96%, rgba(66, 42, 60, 0.31) 99.81%, rgba(66, 42, 60, 0) 99.7%),url("../Image/Rectangle 3.png");
+    background-repeat: no-repeat;
+ background-position: right;
+ align-items: center;
+ 
+
+      
+}
+
+
+.homePageHeadingSection{
+    width: 510px;
+height: 278.58px;
+gap: 24px;
+opacity: 0px;
+margin-bottom: 52px;
+
+}
+
+.homePageHeading{
+    color: rgba(247, 229, 193, 1);
+    font-family: "Playfair Display", serif;
+font-size: 70px;
+font-weight: 700;
+line-height: 80.5px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 24px;
+
+}
+
+.homePageParagraph{
+  color: white;
+}
+
+.inputLabel{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.inputLabel label{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.78px;
+    color: rgba(186, 120, 148, 1);
+}
+.homePageSearchBar{
+    width: 949px;
+height: 88px;
+align-items: center;
+gap: 0px;
+border-radius: 66.67px;
+padding: 14px 40px 14px 40px;
+display: flex;
+}
+
+.homePageSearchBar{
+    gap: 24px;
+    background-color: white;
+}
+
+.searchbtn{
+    width: 211px;
+height: 66px;
+padding: 14px 24px 14px 24px;
+gap: 23px;
+border-radius: 56px;
+opacity: 0px;
+background-color: rgba(186, 120, 148, 1);
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-family: Manrope;
+font-size: 24px;
+font-weight: 600;
+line-height: 32.78px;
+margin-left: 46px;
+}
+
+.searchbtn img{
+    padding-top: 6px;
+    align-items: center;
+}
+
+.inputAndLogo{
+    width: 307px;
+    display: flex;
+    border-bottom:1px solid black;
+     justify-content: space-between;
+}
+
+  .homePage{
+   /* margin-top: 207px;  */
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   height: 100vh;
+ 
+
+} 
+
+
+
+ 
+
+
+.sliderCon{
+    width: 100%;
+    
+}
+ .mySlider{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ .mySlider .siderImg {
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+.mySlider img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  
+}
+
+.slick-prev, .slick-next {
+    width: 100%;
+    color: black; 
+    font-size: 24px; 
+ 
+    border: none; 
+    padding: 10px; 
+}
+
+.slick-prev:before, .slick-next:before {
+    width: 100%;
+    color: black; 
+    background-color: black;
+}
+
+
+
+.serviceCardSection{
+    width: 100%;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------------*/
+
+.serviceName{
+font-family: Manrope;
+font-size: 18px;
+font-weight: 700;
+line-height: 24.59px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.siderImg img{
+ width: 119px;
+height: 96px;
+
+}
+
+.wrapperSlider{
+    margin-bottom: 111px;
+}
+
+.ratingAndView{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    
+}
+
+.ratingImage{
+    width: 24px;
+height: 24px;
+
+}
+
+.rate{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+color: #570f45;
+
+}
+
+.view{
+    font-family: Playfair Display;
+font-size: 18px;
+font-weight: 700;
+line-height: 32px;
+color: black;
+}
+
+.serviceCardName{
+    font-family: Playfair Display;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.99px;
+margin-bottom: 10px;
+
+}
+
+.location{
+    width:100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.location p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 19.36px;
+color: rgba(85, 85, 85, 1);
+
+
+}
+
+.BookNow{
+    width: 100%;
+height: 53px;
+padding: 16px 32px 16px 32px;
+gap: 8px;
+border-radius: 8px;
+border: 1px solid rgba(186, 120, 148, 1);
+opacity: 0px;
+color: aliceblue;
+background-color: rgba(186, 120, 148, 1);
+font-family: Playfair Display;
+font-size: 16px;
+font-weight: 700;
+line-height: 21.33px;
+
+
+}
+
+ .card{
+    padding: 10px;
+} 
+ 
+.serviceCard{
+  display: flex;
+  flex-direction: column;
+border-radius: 24px;
+border: 1px;
+border-radius: 24px ;
+border: 1px solid gray;
+opacity: 0px;
+
+
+
+ 
+}
+
+
+
+
+.serviceNameCard{
+    font-family: Playfair Display;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.99px;
+text-align: left;
+margin-bottom: 10px;
+}
+
+
+.serviceImage img{
+    width: 100%;
+
+
+border-radius: 24px;
+ 
+
+}
+
+.serviceCards{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+    justify-content: space-between;
+    margin-bottom: 111px;
+}
+
+.serviceInfoTopHeading{
+    font-family: Manrope;
+font-size: 15px;
+font-weight: 600;
+line-height: 23.17px;
+letter-spacing: 0.1em;
+color: rgba(186, 120, 148, 1);
+text-align: center;
+
+}
+
+.serviceInfoTopSecondHeading{
+    font-family: Playfair Display;
+font-size: 45px;
+font-weight: 700;
+line-height: 58.5px;
+letter-spacing: -0.01em;
+text-align: center;
+
+margin-bottom: 67px;
+
+}
+
+.serviceTemplate{
+    display: flex;
+    flex-direction: row;
+}
+
+.quote{
+    width: 45.18px;
+height: 39.55px;
+top: -20px;
+left: -23px;
+gap: 0px;
+
+
+}
+
+.name{
+    font-family: Manrope;
+font-size: 20px;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: -0.02em;
+color: aliceblue;
+text-align: left;
+
+
+}
+
+.serviceLocation{
+    font-family: Manrope;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+color: aliceblue;
+text-align: left;
+
+
+}
+.templateHeading{
+    font-family: Playfair Display;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: -0.02em;
+text-align: left;
+color: white;
+
+
+}
+
+.templatePara{
+    font-family: Manrope;
+font-size: 19px;
+font-weight: 400;
+line-height: 34.2px;
+text-align: left;
+color: white;
+
+}
+
+.serviceTemplate{
+    background-color: rgba(66, 42, 60, 1);
+    border-radius: 40px;
+    padding: 96px 150px;
+
+}
+
+.serviceTemplateImage img{
+    width: 406px;
+  
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+
+.scocialMediaLogo{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.FooterSection{
+    background-color: rgba(36, 21, 32, 1);
+}
+
+.socialMedia{
+
+    display: flex;
+    gap:10px;
+}
+
+.mediaLogo{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 52px;
+    border: 2px solid white;
+}
+
+
+.mediaLogo img{
+    padding: 17px;
+}
+
+.FooterPageLink{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footLink{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.footLink a{
+    font-family: Manrope;
+font-size: 17px;
+font-weight: 500;
+line-height: 34px;
+letter-spacing: -0.01em;
+
+
+}
+
+.footLink a{
+    color: white;
+}
+.utilityLink{
+    color: aliceblue;
+}
+
+.utilityLinkPage{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.utilityLinkPage a{
+    color: aliceblue;
+}
+
+.footerAddress{
+    color: white;
+}
+.footerMainSection{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstSectionlinkHeader{
+    margin-bottom: 21px;
+}
+.footerUtilityLink{
+    margin-bottom: 21px;
+}
+
+.footerAddressSection{
+    margin-bottom: 21px;
+}
+
+.footerMainSection{
+    margin-top: 52px;
+}
+.addr{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.addressLocation span{
+    font-family: Manrope;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25.5px;
+    letter-spacing: -0.01em;    
+}
+
+
+.copywritePara p{ 
+     color:aliceblue;
+    font-family: Font Awesome 5 Free;
+    padding-top:20px ;
+    padding-bottom: 20px;
+font-size: 18px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.01em;
+text-align: center;
+background-color: rgba(22, 8, 19, 1);
+}
+
+.footerPage{
+    margin-bottom:76px ;
+}
+
+.copywritePara{
+    gap:10px;
+}
+
+.copywritePara p{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.FooterSection{
+    margin-top: 172px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+ .ri{
+    display: flex;
+
+ }
+
+ .TemplateServices{
+    margin-bottom: 268px;
+ }
+
+
+
+ @media screen and (max-width:767px) {
+    .container{
+      width: 100%;
+      padding: 20px;
+    }
+
+    p{
+      
+font-size: 16px;
+font-weight: 400;
+line-height: 23.5px;
+
+    }
+
+    .navbar{
+        display: none;
+    }
+    .homePageSearchBar{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+    }
+    /* .homePageHeadingSection{
+        width: 100%;
+    }
+    .homePageHeading{
+        font-weight: 200p;
+    } */
+
+   .homePageHeadingSection{
+      width: 100%;
+      font-size: small;
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+
+
+
+font-size: 40px;
+font-weight: 700;
+line-height: 57px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+
+   }
+
+   .searchbtn {
+    width: 10%;
+    height: 66%;
+   
+    display: flex
+;    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+ }
